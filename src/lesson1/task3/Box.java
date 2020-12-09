@@ -23,7 +23,7 @@ public class Box <T extends Fruit> {
         }
         return w;
     }
-
+// сравнение
     public boolean sameAvg(Box<?> another) {
         return Math.abs(this.getWeight()-another.getWeight()) < 0.001;
     }
